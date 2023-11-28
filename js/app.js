@@ -112,4 +112,8 @@ list.addEventListener("click", function (event) {
   localStorage.setItem("TODO", JSON.stringify(LIST));
 });
 
-addBtn.addEventListener("click", addToDoFn);
+addBtn.addEventListener("click", function(){
+  if (toDo) {
+      addToDoFn();
+    }
+};
