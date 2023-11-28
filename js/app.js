@@ -113,6 +113,7 @@ list.addEventListener("click", function (event) {
 });
 
 addBtn.addEventListener("click", function(){
+  const toDo = input.value;
   if (toDo) {
       addToDoFn();
     }
