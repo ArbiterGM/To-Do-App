@@ -116,4 +116,4 @@ addBtn.addEventListener("click", function(){
   if (toDo) {
       addToDoFn();
     }
-};
+});
